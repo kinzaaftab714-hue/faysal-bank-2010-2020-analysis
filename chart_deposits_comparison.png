@@ -1,0 +1,68 @@
+# Financial Overview (2010–2020)
+
+> **Data status:** This section now contains real, audited figures for 2011-2018 and 2020, extracted directly from Faysal Bank's own Annual Reports (2016, 2017, 2018, and 2020 editions), cross-validated across overlapping years. Only 2010 and 2019 remain unfilled — see [09-data-and-charts/README.md](../09-data-and-charts/README.md) for exact next steps.
+
+## Verified Data Charts
+
+![Total Assets vs Deposits](../09-data-and-charts/chart_assets_deposits.png)
+
+![Profit After Tax and EPS](../09-data-and-charts/chart_profit_eps.png)
+
+![Branch Network and Workforce Growth](../09-data-and-charts/chart_branches_employees.png)
+
+![Return on Equity and Return on Assets](../09-data-and-charts/chart_key_ratios.png)
+
+![Shareholders' Equity Growth](../09-data-and-charts/chart_equity_growth.png)
+
+*Full dataset, sources, and methodology: [09-data-and-charts/](../09-data-and-charts/)*
+
+## Growth Rates (CAGR), 2011–2018
+
+| Metric | CAGR |
+|---|---|
+| Deposits | 9.7% per year |
+| Total Assets | 10.8% per year |
+| Profit After Tax | 20.9% per year |
+
+The gap between deposit growth (9.7%) and profit growth (20.9%) is the clearest quantitative signal in this dataset: Faysal Bank grew its profitability roughly twice as fast as its deposit base over this period. This is consistent with improving efficiency and margins during the Islamic conversion years, rather than growth being purely a function of getting bigger.
+
+## What the Real Numbers Show
+
+### Deposits and assets grew steadily, profit accelerated
+Deposits grew from PKR 214.6 billion (2011) to PKR 409.4 billion (2018) — roughly 91% growth over seven years. Total assets more than doubled, from PKR 292.6 billion to PKR 599.9 billion, reaching PKR 710 billion by 2020. Profit after tax grew far faster in percentage terms: from PKR 1.28 billion (2011) to PKR 4.84 billion (2018) to PKR 6.51 billion (2020) — a near 5x increase.
+
+### The 2011-2013 plateau, then a step-change from 2014
+Profit barely grew from 2011 to 2013 (PKR 1.28bn → PKR 1.85bn), consistent with the RBS-acquisition integration drag described in the timeline. From 2014 (the year of the Islamic conversion announcement) onward, profit jumped every year without exception through 2018 and into 2020. This pattern — flat, then a sustained multi-year acceleration starting the same year as the strategic pivot — is the single strongest piece of evidence in this project that the Islamic conversion strategy coincided with a real change in the bank's trajectory. (See [08-critical-analysis/analysis.md](../08-critical-analysis/analysis.md) for why "coincided with" is not the same as "was proven to cause.")
+
+### Capital base grew alongside the balance sheet
+Shareholders' equity nearly doubled, from PKR 18.8 billion (2012) to PKR 38.4 billion (2018), showing the balance sheet growth was backed by proportionate capital growth rather than excessive leverage.
+
+### Branch network growth was gradual, then accelerated sharply
+Branches grew slowly from 257 (2011) to 355 (2016), then to 405 (2017) and 455 (2018), before nearly doubling further to 576 by 2020 — consistent with the widely reported "biggest-ever branch expansion" push described in contemporary banking press coverage.
+
+### Return ratios peaked in 2015, then normalized
+ROE peaked at 17.63% in 2015 before settling into a 13-16% range through 2020 — a healthy, sustained level rather than a one-off spike, though not as extreme as the 2015 peak.
+
+## Key Financial Themes (Narrative Context)
+
+### 1. Post-Acquisition Scale Effects (2010–2013)
+The RBS Pakistan acquisition in 2010 significantly increased Faysal Bank's balance sheet size, branch count, and deposit base overnight. The flat profit growth in 2011-2013 is consistent with integration costs and workforce rationalization weighing on short-term profitability even as the asset base grew.
+
+### 2. Deposit Growth via Islamic Products (2014 onward)
+The stated rationale for the Islamic banking conversion was that Islamic banking deposits were growing faster industry-wide than conventional deposits in Pakistan. The acceleration in both deposits and profit after 2014 is consistent with this strategy paying off, though the Directors' Reports also cite falling interest rates and cost discipline as contributing factors.
+
+### 3. Branch Network Investment (2015–2020)
+The bank invested substantially in expanding its physical branch network, most dramatically between 2017 (405 branches) and 2020 (576 branches).
+
+### 4. Regulatory & Compliance Costs (2020)
+The Rs. 96.1 million SBP fine imposed in July 2020 for compliance violations (CDD, foreign exchange, KYC, and asset quality) occurred in the same year the bank reported its strongest profitability and largest branch network in the decade — a useful reminder that rapid growth and compliance strain can coincide.
+
+## Publicly Traded Status
+Faysal Bank's shares are listed on the Pakistan Stock Exchange (PSX) under the symbol FABL.
+
+## Remaining Gaps: 2010 and 2019
+
+- **2010**: Available in Faysal Bank's Annual Report 2010 (https://www.faysalbank.com/assets/documents/Faysalbank.pdf) — not yet pulled in, since 2010 was a partial/transition year (RBS acquisition completed mid-year) and would need care in interpretation.
+- **2019**: The 2019 Annual Report's Six Year Financial Summary table has an embedded-font text-extraction issue (numbers render as symbols rather than digits). The 2018 and 2020 reports bracket this gap closely enough that the trend is already visible; a future update could open the 2019 PDF visually to fill this single missing year.
+
+*See [06-sources.md](../06-sources.md) for full citations.*

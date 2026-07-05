@@ -1,0 +1,50 @@
+# Comparative Analysis: Faysal Bank vs. Meezan Bank (2011–2018, Audited Data)
+
+## Why This Section Matters
+
+A standalone profile of one bank tells you what happened. A head-to-head comparison — using real audited figures from both banks' own annual reports — tells you whether Faysal Bank's strategy actually worked relative to its most direct competitor: Meezan Bank, Pakistan's first and largest Islamic bank.
+
+## The Numbers, Side by Side
+
+![Deposits Comparison](./chart_deposits_comparison.png)
+
+![Profit Comparison](./chart_profit_comparison.png)
+
+![ROE Comparison](./chart_roe_comparison.png)
+
+![CAGR Comparison](./chart_cagr_comparison.png)
+
+*Full dataset: [peer_comparison_data.csv](./peer_comparison_data.csv), sourced from Faysal Bank Annual Reports 2016-2018 and Meezan Bank Annual Report 2018 (Six Years' Horizontal Analysis).*
+
+## Growth Rates, 2011–2018 (CAGR)
+
+| Metric | Faysal Bank | Meezan Bank |
+|---|---|---|
+| Deposits | 9.7% | **24.5%** |
+| Total Assets | 10.8% | **24.4%** |
+| Profit After Tax | **20.9%** | 14.9% |
+| Branch Network | 8.5% | 13.3% |
+
+## The Key Finding (Not Obvious Until You Run the Numbers)
+
+Meezan Bank grew its deposits and assets roughly **2.5x faster** than Faysal Bank over this period (24.5% vs 9.7% CAGR) — consistent with Meezan's position as the fastest-growing bank in Pakistan at the time, expanding from 275 to 660 branches. This confirms what the earlier qualitative comparison suspected: Faysal Bank could not out-scale a bank built from day one as a dedicated Islamic institution.
+
+**But the profit picture flips.** Faysal Bank's profit after tax grew at a 20.9% CAGR — faster than Meezan Bank's 14.9%. In 2011, Faysal's profit (PKR 1.28bn) was barely a third of Meezan's (PKR 3.39bn). By 2018, Faysal's profit (PKR 4.84bn) had closed to nearly half of Meezan's (PKR 8.96bn) — even though Faysal's deposit base remained roughly half the size throughout.
+
+This means Faysal Bank was becoming more profitable **per unit of balance sheet size** at a faster rate than Meezan — a real, quantifiable margin/efficiency improvement, not just balance-sheet growth. A plausible read: Meezan spent this period in aggressive land-grab expansion mode (hence the faster deposit/branch growth but comparatively slower profit growth — see the declining ROE trend in Meezan's own numbers, from 27.3% in 2011 to 19.6% by 2016), while Faysal, growing off a smaller and more recently-restructured base, converted growth into profit more efficiently.
+
+## Return on Equity: Convergence, Not Faysal Catching Meezan on Scale
+
+Meezan's ROE actually declined from 27.28% (2011) to 19.58% (2016), consistent with a bank prioritizing growth over margin during its most aggressive expansion years, before recovering to 23.77% by 2018. Faysal's ROE rose sharply over the same window — from 7.43% (2011) to a peak of 17.63% (2015) — meaning the ROE gap between the two banks *narrowed substantially*, even though Meezan remained larger and more profitable in absolute terms throughout.
+
+## What This Comparison Does NOT Show
+
+- It does not prove Faysal Bank's Islamic conversion strategy was superior to Meezan's expansion strategy — these are different strategic bets (efficiency-focused vs. scale-focused) that could each be judged "successful" on their own terms
+- It does not control for the fact that Faysal was recovering from a smaller/more disrupted 2011 base (post-RBS integration), which mechanically makes percentage growth rates look larger
+- It is limited to two banks; a fuller analysis would add HBL, UBL, and NBP (conventional banks) to test whether Faysal's growth also outpaced conventional peers, not just its direct Islamic-banking competitor
+
+## Regulatory Context That Affected Both Banks
+
+Both banks operated under the same industry-wide dynamic: Islamic banking deposits were growing faster than conventional banking deposits throughout this period nationally, and both eventually had to navigate the broader 2027 Federal Shariat Court deadline pushing the entire industry toward interest-free banking. Faysal Bank's move to convert entirely was a bet that this policy direction was coming regardless; Meezan's structural advantage was that it never had to convert at all.
+
+*See [06-sources.md](../06-sources.md) for full citations.*

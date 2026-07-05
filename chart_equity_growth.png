@@ -1,0 +1,62 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("peer_comparison_data.csv")
+fb = df[df.bank == "Faysal Bank"]
+mb = df[df.bank == "Meezan Bank"]
+
+# Chart 1: Deposits comparison
+fig, ax = plt.subplots(figsize=(9, 5.5))
+ax.plot(fb.year, fb.deposits_pkr_mn/1000, marker='o', linewidth=2, label='Faysal Bank', color='#1f6f4a')
+ax.plot(mb.year, mb.deposits_pkr_mn/1000, marker='s', linewidth=2, label='Meezan Bank', color='#8e44ad')
+ax.set_ylabel("Deposits (PKR Billions)")
+ax.set_xlabel("Year")
+ax.set_title("Faysal Bank vs Meezan Bank — Deposit Growth (2011-2018)")
+ax.legend()
+plt.tight_layout()
+plt.savefig("chart_deposits_comparison.png", dpi=150)
+plt.close()
+
+# Chart 2: Profit after tax comparison
+fig, ax = plt.subplots(figsize=(9, 5.5))
+ax.plot(fb.year, fb.profit_after_tax_pkr_mn, marker='o', linewidth=2, label='Faysal Bank', color='#1f6f4a')
+ax.plot(mb.year, mb.profit_after_tax_pkr_mn, marker='s', linewidth=2, label='Meezan Bank', color='#8e44ad')
+ax.set_ylabel("Profit After Tax (PKR Millions)")
+ax.set_xlabel("Year")
+ax.set_title("Faysal Bank vs Meezan Bank — Profit After Tax (2011-2018)")
+ax.legend()
+plt.tight_layout()
+plt.savefig("chart_profit_comparison.png", dpi=150)
+plt.close()
+
+# Chart 3: ROE comparison
+fig, ax = plt.subplots(figsize=(9, 5.5))
+ax.plot(fb.year, fb.roe_percent, marker='o', linewidth=2, label='Faysal Bank', color='#1f6f4a')
+ax.plot(mb.year, mb.roe_percent, marker='s', linewidth=2, label='Meezan Bank', color='#8e44ad')
+ax.set_ylabel("Return on Equity (%)")
+ax.set_xlabel("Year")
+ax.set_title("Faysal Bank vs Meezan Bank — ROE (2011-2018)")
+ax.legend()
+plt.tight_layout()
+plt.savefig("chart_roe_comparison.png", dpi=150)
+plt.close()
+
+# Chart 4: CAGR bar comparison
+metrics = ['Deposits\nCAGR', 'Assets\nCAGR', 'Profit\nCAGR', 'Branch\nCAGR']
+faysal_cagr = [9.7, 10.8, 20.9, 8.5]
+meezan_cagr = [24.5, 24.4, 14.9, 13.3]
+x = range(len(metrics))
+width = 0.35
+fig, ax = plt.subplots(figsize=(9, 5.5))
+ax.bar([i - width/2 for i in x], faysal_cagr, width, label='Faysal Bank', color='#1f6f4a')
+ax.bar([i + width/2 for i in x], meezan_cagr, width, label='Meezan Bank', color='#8e44ad')
+ax.set_xticks(list(x))
+ax.set_xticklabels(metrics)
+ax.set_ylabel("CAGR 2011-2018 (%)")
+ax.set_title("Faysal Bank vs Meezan Bank — Growth Rate Comparison")
+ax.legend()
+plt.tight_layout()
+plt.savefig("chart_cagr_comparison.png", dpi=150)
+plt.close()
+
+print("done")
